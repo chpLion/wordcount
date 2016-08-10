@@ -165,7 +165,7 @@ hadoop-2.7.1  hadoop-2.7.1.tar.gz
           </property>
   </configuration>
     ```
-    这里是设置namenode和datanode两个节点的路径，来模拟分布式
+    这里是设置namenode和datanode两个节点的路径，来模拟分布式,如果要使用远程调试，则需要将localhost改成服务器的公网ip地址
   为了能让终端更好的使用hadoop的命令，我们需要设置一下hadoop的环境变量
   同样的 进入/etc/profile
   修改如下
